@@ -7,6 +7,10 @@ from utils.pdf_generator import generate_pdf
 
 load_dotenv()
 
+# Load from Streamlit Cloud secrets if available
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="YouTube → Article & PDF",
