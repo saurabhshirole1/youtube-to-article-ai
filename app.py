@@ -128,8 +128,8 @@ youtube_url = st.text_input(
 col1, col2 = st.columns(2)
 with col1:
     article_style = st.selectbox("Article Style", ["Informative Blog", "Technical Deep-Dive", "Beginner-Friendly", "News Summary"])
-with col2:
-    article_length = st.selectbox("Article Length", ["Short (~300 words)", "Medium (~600 words)", "Long (~1000 words)"])
+# with col2:
+#     article_length = st.selectbox("Article Length", ["Short (~300 words)", "Medium (~600 words)", "Long (~1000 words)"])
 
 # ── Generate Button ───────────────────────────────────────────────────────────
 st.markdown("")
