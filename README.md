@@ -65,7 +65,7 @@ yt_to_article/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/yt-to-article.git
+git clone https://github.com/saurabhshirole1/yt-to-article.git
 cd yt-to-article
 ```
 
@@ -84,11 +84,10 @@ streamlit run app.py
 ```
 
 ### 5. Use the App
-1. Expand "⚙️ API Configuration" and paste your Groq API key
-2. Paste any YouTube URL
-3. Choose article style and length
-4. Click **🚀 Generate Article & PDF**
-5. Download your PDF!
+1. Paste any YouTube URL
+2. Choose article style and length
+3. Click **🚀 Generate Article & PDF**
+4. Download your PDF!
 
 ---
 
